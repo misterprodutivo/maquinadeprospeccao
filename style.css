@@ -61,6 +61,7 @@ p {
     color: white;
     background: linear-gradient(to right, #dcfc84, #33ea70);
     z-index: 1;
+    text-align: center;
 }
 
 .tag::before {
