@@ -321,8 +321,8 @@ footer p {
 }
 
 .icone-texto img {
-    width: 5vw;
-    height: 5vw;
+    width: 5vw !important;
+    height: 5vw !important;
     margin-right: 3vw;
 
 }
