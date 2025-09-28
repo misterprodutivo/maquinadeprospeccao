@@ -18,8 +18,8 @@ section {
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding-bottom: 20vh;
-    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
 }
 
 /* Estilos que não precisam de media query (mantidos) */
@@ -298,6 +298,7 @@ footer p {
     width: 15%;
 }
 
+
 .icp .card {
     width: 20vw;
     height: 15vh;
@@ -307,6 +308,35 @@ footer p {
 .icp .card h3 {
     font-size: 1.5rem;
 }
+
+.card .text-left p {
+    text-align: left;
+    font-size: 1rem;
+
+}
+
+.icone-texto {
+    display: flex;
+    flex-direction: row;
+}
+
+.icone-texto img {
+    width: 5vw;
+    height: 5vw;
+    margin-right: 3vw;
+
+}
+
+.card img {
+    margin-bottom: 2vh;
+    width: 20%;
+}
+
+.icp .card img {
+    width: 80%;
+    border-radius: 25%;
+}
+
 
 .icp .cards {
     width: 80%;
@@ -528,7 +558,7 @@ footer p {
     }
 
     .logo {
-        width: 15%;
+        width: 10%;
     }
 }
 
